@@ -1,0 +1,12 @@
+form {
+  background-color: lightgray;
+  border: 1px solid lightblue;
+  padding: 40px 10px;
+  width: 200px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px 0;
+}
