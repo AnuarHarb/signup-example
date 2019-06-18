@@ -5,6 +5,7 @@
 
 
 const signinForm = document.getElementById('signin-form');
+const welcomeSection = document.querySelector('.welcome');
 const signinButton = document.getElementById('signin-button');
 
 const user = {};
@@ -36,4 +37,8 @@ function printInfo() {
   const userGender = document.querySelector('.user-gender');
   userMail.innerText = user.email;
   userGender.innerText = user.gender;
+
+  signinForm.style.display = 'none';
+  signinButton.style.display = 'none';
+  welcomeSection.style.display = 'block';
 }
